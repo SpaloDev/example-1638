@@ -1,6 +1,4 @@
 node_modules
-credentials.json
-token.json
 files
 tmp
 .DS_Store
