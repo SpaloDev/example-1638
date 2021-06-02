@@ -48,14 +48,12 @@ exports.exampleSfdcWebhookRefer = async (req, res) => {
       // return response for SPALO
       const ret = {
         type: "carousel",
-        data: {
-          type: "button",
-          items: []
-        }
+        layout: "button",
+        actions: []
       }
 
       for (let i = 0; i < result.records.length; i++) {
-        ret.data.items.push({
+        ret.actions.push({
           label: result.records[i].Name,
           text: result.records[i].Id
         })
