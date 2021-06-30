@@ -18,7 +18,7 @@ exports.exampleSfdcWebhookRefer = async (req, res) => {
 
   } else {
 
-    // for velification
+    // for verification
     return res.send('OK')
   
   }
